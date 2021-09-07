@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: Kubetraining
-    image: nanditha/Kubrtraining
+    image: nanditha/Kubetraining
     ports:
     - name: nodejs-port
       containerPort: 3000
