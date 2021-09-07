@@ -4,7 +4,7 @@ metadata:
   name: pod3
 spec:
   containers:
-  - name: kubetraining
+  - name: kubetraining1
     image: nginx
-  - name: kubetraining
+  - name: kubetraining2
     image: afakharany/watcher:latest
