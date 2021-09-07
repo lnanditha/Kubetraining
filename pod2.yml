@@ -4,8 +4,8 @@ metadata:
   name: pod2
 spec:
   containers:
-  - name: Kubetraining
-    image: nanditha/Kubetraining
+  - name: kubetraining
+    image: nanditha/kubetraining
     ports:
     - name: nodejs-port
       containerPort: 3000
