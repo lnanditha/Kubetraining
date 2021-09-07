@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod2
+spec:
+  containers:
+  - name: Kubetraining
+    image: nanditha/Kubrtraining
+    ports:
+    - name: nodejs-port
+      containerPort: 3000
