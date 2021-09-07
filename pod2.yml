@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: pod2
   lables:
-    app: hellowrold
+    app: helloworld
 spec:
   containers:
   - name: kubetraining
