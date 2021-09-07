@@ -3,7 +3,7 @@ kind: Pod
 metadata: 
   name: pod1
 spec:
-  containers: nginx
+  containers: 
   - name: nanditha
     image: nginx
     ports:
