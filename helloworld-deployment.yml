@@ -1,0 +1,16 @@
+apiVersion: aps/v1
+kind: Deployment
+metadata:
+  name: helloworld-deployment
+spec:
+  replicas: 5
+  selector: 
+    matchlabels:
+      app: helloworld
+    spec: 
+      containers:
+        - name: Kubetraining
+          image: lnanditha/kubetraining
+          ports:
+            - name: nodejs-port
+              containerPort: 3000
